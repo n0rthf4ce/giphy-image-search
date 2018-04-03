@@ -1,0 +1,16 @@
+.topic-button{
+    margin: .2rem;
+}
+.clickable-gif:hover{
+    cursor: pointer;
+}
+.gif-card{
+    border: blue 2px solid;
+    margin: .2rem;
+}
+#add-topic{
+    margin-bottom: 2rem;
+}
+#clear-favorites{
+    margin-bottom: 2rem;
+}
