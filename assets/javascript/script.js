@@ -1,7 +1,7 @@
 
 $(document).ready(function () {
 
-    var topics = ["chicken", "pokemon", "grass", "cash", "kangaroo"], queryURL, numberOfFavorites, favorites = [], movieSearch = false;
+    var topics = ["chicken", "pokemon", "grass", "cash", "kangaroo"], queryURL, numberOfFavorites;
 
     if (localStorage.getItem("numberOfFavorites") == null) {
         numberOfFavorites = 0;
